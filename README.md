@@ -21,12 +21,12 @@ The script automatically generates four key visualizations to help understand th
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repository-url>
-   cd https://github.com/Umang427/iris
+   git clone https://github.com/Umang427/iris
+   cd iris
 
 ```bash
 # Install required libraries
 pip install pandas
 
-# Run the cleaning script
+# Run the script
 python iris.py
