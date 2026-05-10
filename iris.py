@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("/content/sample_data/Iris.csv")
 
 print(df.head())
+print("\nDataset Info:")
+print(df.info())
+
+print("\nSummary Statistics:")
+print(df.describe())
 
 plt.bar(df['Species'].value_counts().index,
         df['Species'].value_counts().values)
