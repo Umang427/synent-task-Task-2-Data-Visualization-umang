@@ -30,3 +30,6 @@ pip install pandas
 
 # Run the script
 python iris.py
+```
+## Data set
+https://www.kaggle.com/datasets/uciml/iris/discussion/18365
